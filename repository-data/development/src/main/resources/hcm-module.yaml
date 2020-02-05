@@ -1,0 +1,7 @@
+group: 
+  name: showitproject
+  after: hippo-cms
+project: showitproject
+module: 
+  name: showitproject-repository-data-development
+  after: showitproject-repository-data-application

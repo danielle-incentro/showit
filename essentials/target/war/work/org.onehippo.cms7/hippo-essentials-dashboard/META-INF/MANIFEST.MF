@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: Hippo Essentials Plugins Dashboard
+Implementation-Version: 14.0.0
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.4.0
+Implementation-Vendor: Hippo B.V. (http://www.onehippo.com)
+

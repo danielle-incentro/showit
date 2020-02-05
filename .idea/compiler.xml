@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="showitproject-essentials" />
+        <module name="showitproject-webapp" />
+        <module name="showitproject-repository-data-development" />
+        <module name="showitproject-repository-data-site-development" />
+        <module name="showitproject-repository-data-application" />
+        <module name="showitproject-repository-data-site" />
+        <module name="showitproject-components" />
+        <module name="showitproject-repository-data-webfiles" />
+        <module name="showitproject-cms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="showitproject" target="1.5" />
+      <module name="showitproject-cms" target="1.8" />
+      <module name="showitproject-cms-dependencies" target="1.5" />
+      <module name="showitproject-components" target="1.8" />
+      <module name="showitproject-essentials" target="1.8" />
+      <module name="showitproject-repository-data" target="1.5" />
+      <module name="showitproject-repository-data-application" target="1.8" />
+      <module name="showitproject-repository-data-development" target="1.8" />
+      <module name="showitproject-repository-data-site" target="1.8" />
+      <module name="showitproject-repository-data-site-development" target="1.8" />
+      <module name="showitproject-repository-data-webfiles" target="1.8" />
+      <module name="showitproject-site" target="1.5" />
+      <module name="showitproject-webapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

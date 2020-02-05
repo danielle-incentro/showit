@@ -1,0 +1,7 @@
+/content/gallery/showitproject:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 9447b792-f50c-4e57-814f-9923f41bf13c
+  hippo:name: Show it project
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

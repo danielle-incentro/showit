@@ -1,0 +1,294 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        showitproject:content: Content
+        showitproject:image: Image
+        showitproject:link: Link
+        showitproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        showitproject:content: Inhoud
+        showitproject:image: Afbeelding
+        showitproject:link: Link
+        showitproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        showitproject:content: Contenu
+        showitproject:image: Image
+        showitproject:link: Lien
+        showitproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        showitproject:content: Inhalt
+        showitproject:image: Abbildung
+        showitproject:link: Link
+        showitproject:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:blogpost:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Blog Post
+        showitproject:authors: Author(s)
+        showitproject:authors#hint: Link to author document(s)
+        showitproject:categories: Categories
+        showitproject:content: Content
+        showitproject:introduction: Introduction
+        showitproject:publicationdate: Publication Date
+        showitproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Blogpost
+        showitproject:authors: Auteur(s)
+        showitproject:authors#hint: Link naar auteur document(en)
+        showitproject:categories: Categorieën
+        showitproject:content: Inhoud
+        showitproject:introduction: Introductie
+        showitproject:publicationdate: Publicatiedatum
+        showitproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Post blog
+        showitproject:authors: Auteur(s)
+        showitproject:authors#hint: Lien vers le(s) document(s) de l'auteur
+        showitproject:categories: Catégories
+        showitproject:content: Contenu
+        showitproject:introduction: Introduction
+        showitproject:publicationdate: Date de publication
+        showitproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Blog-Post
+        showitproject:authors: Verfasser
+        showitproject:authors#hint: Link zu Verfasserdokument(en)
+        showitproject:categories: Kategorien
+        showitproject:content: Inhalt
+        showitproject:introduction: Einführung
+        showitproject:publicationdate: Publikationsdatum
+        showitproject:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:author:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Author
+        showitproject:accounts: Accounts
+        showitproject:accounts#hint: External social media accounts
+        showitproject:content: Description
+        showitproject:content#hint: Information about the author
+        showitproject:fullname: Name
+        showitproject:fullname#hint: Full name
+        showitproject:photo: Photo
+        showitproject:photo#hint: Photo of the author
+        showitproject:role: Role
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Auteur
+        showitproject:accounts: Accounts
+        showitproject:accounts#hint: Externe social media accounts
+        showitproject:content: Beschrijving
+        showitproject:content#hint: Informatie over de auteur
+        showitproject:fullname: Naam
+        showitproject:fullname#hint: Volledige naam
+        showitproject:photo: Foto
+        showitproject:photo#hint: Foto van de auteur
+        showitproject:role: Rol
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Auteur
+        showitproject:accounts: Konten
+        showitproject:accounts#hint: Comptes médias sociaux externes
+        showitproject:content: Description
+        showitproject:content#hint: Informations sur l'auteur
+        showitproject:fullname: Nom
+        showitproject:fullname#hint: Nom complet
+        showitproject:photo: Photo
+        showitproject:photo#hint: Photo de l'auteur
+        showitproject:role: Rôle
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Verfasser
+        showitproject:accounts: Comptes
+        showitproject:accounts#hint: Externe Konten soziale Medien
+        showitproject:content: Beschreibung
+        showitproject:content#hint: Informationen über den Verfasser
+        showitproject:fullname: Name
+        showitproject:fullname#hint: Vollständiger Name
+        showitproject:photo: Foto
+        showitproject:photo#hint: Foto des Verfassers
+        showitproject:role: Rolle
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:account:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Account (Compound)
+        showitproject:link: Link
+        showitproject:link#hint: External link to the account
+        showitproject:type: Type
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Account (Compound)
+        showitproject:link: Link
+        showitproject:link#hint: Externe link naar het account
+        showitproject:type: Soort
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Compte (Compound)
+        showitproject:link: Lien
+        showitproject:link#hint: Lien externe vers le compte
+        showitproject:type: Type
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Konto (Compound)
+        showitproject:link: Link
+        showitproject:link#hint: Externer Link zum Konto
+        showitproject:type: Art
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        showitproject:content: Content
+        showitproject:date: Start date
+        showitproject:enddate: End date
+        showitproject:image: Image
+        showitproject:introduction: Introduction
+        showitproject:location: Location
+        showitproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Evenement
+        showitproject:content: Inhoud
+        showitproject:date: Startdatum
+        showitproject:enddate: Einddatum
+        showitproject:image: Afbeelding
+        showitproject:introduction: Introductie
+        showitproject:location: Locatie
+        showitproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Événement
+        showitproject:content: Contenu
+        showitproject:date: Date de début
+        showitproject:enddate: Date de fin
+        showitproject:image: Image
+        showitproject:introduction: Introduction
+        showitproject:location: Lieu
+        showitproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Event
+        showitproject:content: Inhalt
+        showitproject:date: Startdatum
+        showitproject:enddate: Enddatum
+        showitproject:image: Abbildung
+        showitproject:introduction: Einführung
+        showitproject:location: Standort
+        showitproject:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        showitproject:author: Author
+        showitproject:content: Content
+        showitproject:date: Date
+        showitproject:image: Image
+        showitproject:introduction: Introduction
+        showitproject:location: Location
+        showitproject:source: Source
+        showitproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        showitproject:author: Auteur
+        showitproject:content: Inhoud
+        showitproject:date: Datum
+        showitproject:image: Afbeelding
+        showitproject:introduction: Introductie
+        showitproject:location: Locatie
+        showitproject:source: Bron
+        showitproject:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        showitproject:author: Verfasser
+        showitproject:content: Inhalt
+        showitproject:date: Datum
+        showitproject:image: Abbildung
+        showitproject:introduction: Einführung
+        showitproject:location: Standort
+        showitproject:source: Quelle
+        showitproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        showitproject:author: Auteur
+        showitproject:content: Contenu
+        showitproject:date: Date
+        showitproject:image: Image
+        showitproject:introduction: Introduction
+        showitproject:location: Lieu
+        showitproject:source: Source
+        showitproject:title: Titre
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Simple Document
+        showitproject:content: Content
+        showitproject:introduction: Introduction
+        showitproject:publicationdate: Publication date
+        showitproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Eenvoudig Document
+        showitproject:content: Inhoud
+        showitproject:introduction: Introductie
+        showitproject:publicationdate: Publicatiedatum
+        showitproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document simple
+        showitproject:content: Contenu
+        showitproject:introduction: Introduction
+        showitproject:publicationdate: Date de publication
+        showitproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Einfaches Dokument
+        showitproject:content: Inhalt
+        showitproject:introduction: Einführung
+        showitproject:publicationdate: Publikationsdatum
+        showitproject:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/showitproject:video:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Video
+        showitproject:description: Description
+        showitproject:link: Video URL
+        showitproject:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Video
+        showitproject:description: Beschrijving
+        showitproject:link: Video URL
+        showitproject:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Vidéo
+        showitproject:description: Description
+        showitproject:link: URL vidéo
+        showitproject:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Video
+        showitproject:description: Beschreibung
+        showitproject:link: Video-URL
+        showitproject:title: Titel

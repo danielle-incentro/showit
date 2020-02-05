@@ -1,0 +1,6 @@
+site: showitproject
+group: showitproject
+project: showitproject
+module:
+  name: showitproject-repository-data-site-development
+  after: showitproject-repository-data-site

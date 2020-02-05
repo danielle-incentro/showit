@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    showitproject:
+      uri: http://www.showitproject.com/showitproject/nt/1.0
+      cnd: namespaces/showitproject.cnd

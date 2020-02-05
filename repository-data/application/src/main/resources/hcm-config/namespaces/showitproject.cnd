@@ -1,0 +1,33 @@
+<'showitproject'='http://www.showitproject.com/showitproject/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+
+[showitproject:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[showitproject:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[showitproject:author] > hippostd:relaxed, hippotranslation:translated, showitproject:basedocument
+  orderable
+
+[showitproject:bannerdocument] > hippostd:relaxed, hippotranslation:translated, showitproject:basedocument
+  orderable
+
+[showitproject:blogpost] > hippostd:relaxed, hippotranslation:translated, showitproject:basedocument
+  orderable
+
+[showitproject:contentdocument] > hippostd:relaxed, hippotranslation:translated, showitproject:basedocument
+  orderable
+
+[showitproject:eventsdocument] > hippostd:relaxed, hippotranslation:translated, showitproject:basedocument
+  orderable
+
+[showitproject:newsdocument] > hippostd:relaxed, hippotranslation:translated, showitproject:basedocument
+  orderable
+
+[showitproject:video] > hippostd:relaxed, hippotranslation:translated, showitproject:basedocument
+  orderable
+

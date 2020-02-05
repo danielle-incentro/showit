@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/showitproject.iml" filepath="$PROJECT_DIR$/showitproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms/showitproject-cms.iml" filepath="$PROJECT_DIR$/cms/showitproject-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-dependencies/showitproject-cms-dependencies.iml" filepath="$PROJECT_DIR$/cms-dependencies/showitproject-cms-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/components/showitproject-components.iml" filepath="$PROJECT_DIR$/site/components/showitproject-components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/essentials/showitproject-essentials.iml" filepath="$PROJECT_DIR$/essentials/showitproject-essentials.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/showitproject-repository-data.iml" filepath="$PROJECT_DIR$/repository-data/showitproject-repository-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/application/showitproject-repository-data-application.iml" filepath="$PROJECT_DIR$/repository-data/application/showitproject-repository-data-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/development/showitproject-repository-data-development.iml" filepath="$PROJECT_DIR$/repository-data/development/showitproject-repository-data-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site/showitproject-repository-data-site.iml" filepath="$PROJECT_DIR$/repository-data/site/showitproject-repository-data-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/site-development/showitproject-repository-data-site-development.iml" filepath="$PROJECT_DIR$/repository-data/site-development/showitproject-repository-data-site-development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/repository-data/webfiles/showitproject-repository-data-webfiles.iml" filepath="$PROJECT_DIR$/repository-data/webfiles/showitproject-repository-data-webfiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/showitproject-site.iml" filepath="$PROJECT_DIR$/site/showitproject-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/site/webapp/showitproject-webapp.iml" filepath="$PROJECT_DIR$/site/webapp/showitproject-webapp.iml" />
+    </modules>
+  </component>
+</project>

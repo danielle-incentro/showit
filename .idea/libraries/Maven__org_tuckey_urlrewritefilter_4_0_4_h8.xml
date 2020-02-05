@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.tuckey:urlrewritefilter:4.0.4-h8">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/tuckey/urlrewritefilter/4.0.4-h8/urlrewritefilter-4.0.4-h8.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/tuckey/urlrewritefilter/4.0.4-h8/urlrewritefilter-4.0.4-h8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/tuckey/urlrewritefilter/4.0.4-h8/urlrewritefilter-4.0.4-h8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
